@@ -1,0 +1,43 @@
+/* Basic reset for margins and paddings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* Styling for the main header */
+#main-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Centered text */
+}
+
+/* Styling for content section */
+.content-section {
+    margin: 20px; /* Margin around the content section */
+    padding: 15px; /* Padding inside the content section */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Styling for the image */
+.styled-image {
+    width: 100%; /* Responsive image */
+    max-width: 600px; /* Maximum width */
+    border: 2px solid #4CAF50; /* Green border around the image */
+    border-radius: 5px; /* Rounded corners for the image */
+    margin-top: 15px; /* Margin above the image */
+}
+
+/* Styling for the footer */
+.footer {
+    text-align: center; /* Centered text */
+    padding: 10px; /* Padding inside the footer */
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    position: relative; /* Positioning */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+}
